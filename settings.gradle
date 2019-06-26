@@ -1,1 +1,1 @@
-include ':app', ':database', ':msg', ':msg2', ':msg3'
+include ':app', ':database', ':msg', ':socket'
