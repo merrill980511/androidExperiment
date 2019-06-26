@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="100dp"
+            android:layout_height="63dp"
+            android:text="添加" />
+
+        <Button
+            android:id="@+id/xg"
+            android:layout_width="100dp"
+            android:layout_height="63dp"
+            android:text="修改" />
+
+        <Button
+            android:id="@+id/sc"
+            android:layout_width="100dp"
+            android:layout_height="63dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/ck"
+            android:layout_width="100dp"
+            android:layout_height="63dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="查看" />
+    </GridLayout>
+
+    <EditText
+        android:id="@+id/listm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:lines="2"
+        android:text="时间：           类型：              支出："
+        />
+
+    <ListView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

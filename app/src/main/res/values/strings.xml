@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SaveFile</string>
+    <string name="nameTitle">文  件  名  ：</string>
+    <string name="detailTitle">文件内容：</string>
+    <string name="btnWrite">写入</string>
+    <string name="btnClean">重置</string>
+    <string name="btnRead">读取</string>
+    <string name="confirm">文件已存在，是否进行覆盖？</string>
+</resources>

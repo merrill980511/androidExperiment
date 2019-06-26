@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ExpDatabase</string>
+    <string name="title_activity_add">AddActivity</string>
+    <drawable name="highlight">#aaaaaa</drawable>
+    <drawable name="unhighlight">#ffffff</drawable>
+</resources>
